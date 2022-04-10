@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Coin Lust!</title>
+</head>
+<body>
+    <div id="titleContainer">
+        <div id="title">
+            <div id="links1">
+                <ul>
+                    <li><a href="https://github.com/Inveron/CoinLust">Repository</Link></a></li>
+                </ul>
+            </div>
+
+            <h1 id="t">Coin Lust</h1>
+
+            <div id="links2">
+                <ul>
+                    <li><a href="https://github.com/Inveron">Github</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div id="body">
+        <div id="desc">
+            <p>Welcome to coin lust! the goal of this game is to get to 1000 coins before the leprechaun.</p>
+            <p>Easy right? Theres a catch though, you can only get there by entering inputs 1-100</p>
+            <h4>Ready? GO</h4>
+        </div>
+
+        <div id="input">
+            <input type="text" name="txtbox" id="txtbox">
+            <button id="btn" onclick="game(document.getElementById('txtbox').value)">Click to try your luck!</button>
+        </div>
+
+        <div id="results">
+            <p id="res">Results will show here!</p>
+        </div>
+    </div>
+
+
+
+    
+</body>
+</html>
